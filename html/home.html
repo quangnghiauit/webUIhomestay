@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="../img/logo.png" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../fontawesome/css/all.css">
+  <title>AirBnB</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- Nav tabs -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+      <a class="navbar-brand" href="#">
+        <img src="../img/logo.png" width="50" height="50" alt="##">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Thêm nhà/phòng cho thuê</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Đã lưu</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Tin nhắn</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Trợ giúp</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <img src="../img/avatar.jpg" class="avatar" alt="##">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Profile</a>
+              <a class="dropdown-item" href="#">Đăng xuất</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="header-home">
+    <div class="header-content">
+      <div class="block-search">
+
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search">
+          <div class="input-group-append">
+            <button class="btn btn-secondary">
+              <i class="fa fa-search"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <button type="button" class="btn">Địa điểm</button>
+          <button type="button" class="btn">Loại</button>
+          <button type="button" class="btn">Giá</button>
+          <button type="button" class="btn">Thêm tiêu chí</button>
+          <button type="button" class="btn">Tìm kiếm</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class='main container-fluid'>
+
+    <div class="welcome">
+      <h2><b>Chào mừng đến với Luxstay</b></h2>
+      <p>Đặt chỗ ở, phòng trọ, trải nghiệm và nhiều hơn nữa với Luxstay</p>
+
+      <div class="row">
+        <div class="col-sm-2 block-type1">
+        </div>
+        <div class="col-sm-2 block-type2">
+        </div>
+        <div class="col-sm-2 block-type3">
+        </div>
+      </div>
+    </div>
+
+    <div class="search-trends">
+      <h2><b>Xu hướng tìm kiếm</b></h2>
+      <button type="button" class="btn btn-link mr-btn">Xem thêm</button>
+
+      <div class="wrapper">
+        <div class="block">
+        </div>
+        <div class="block">
+        </div>
+        <div class="block">
+        </div>
+        <div class="block">
+        </div>
+        <div class="block">
+        </div>
+      </div>
+    </div>
+
+    <div class="list-room">
+      <h2><b>Danh sách phòng trọ</b></h2>
+      <button type="button" class="btn btn-link mr-btn">Xem thêm</button>
+
+      <div class="wrapper">
+        <div class="block">
+        </div>
+        <div class="block">
+        </div>
+        <div class="block">
+        </div>
+        <div class="block">
+        </div>
+        <div class="block">
+        </div>
+      </div>
+    </div>
+
+    <div class="list-room">
+      <h2><b>Danh sách căn hộ chia sẻ</b></h2>
+      <button type="button" class="btn btn-link mr-btn">Xem thêm</button>
+
+      <div class="wrapper">
+        <div class="block">
+        </div>
+        <div class="block">
+        </div>
+        <div class="block">
+        </div>
+        <div class="block">
+        </div>
+        <div class="block">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <h1>LUXSTAY</h1>
+  </footer>
+
+  <script src="../js/jquery-3.4.1.slim.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
