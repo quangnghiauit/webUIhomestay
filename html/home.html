@@ -63,26 +63,428 @@
   </div>
 
   <div class="header-home">
-    <div class="header-content">
-      <div class="block-search">
 
-        <div class="input-group">
-          <input type="text" class="form-control" placeholder="Search">
-          <div class="input-group-append">
-            <button class="btn btn-secondary">
-              <i class="fa fa-search"></i>
+    <div class="header-content"></div>
+
+    <div class="block-search">
+      <div class="input-group">
+        <input type="text" style="height: 45px;" class="form-control" placeholder="Search">
+        <div class="input-group-append">
+          <button class="btn btn-primary">
+            <i class="fa fa-search"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="btn-group" role="group">
+              <button id="dropdownDiaDiem" type="button" class="btn btn-light btn-popup dropdown-toggle"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Địa điểm
+              </button>
+              <div class="dropdown-menu" style="width: 280px;" aria-labelledby="dropdownDiaDiem">
+                <a class="dropdown-item" href="#">
+                  <select class="form-control">
+                    <option>Toàn quốc</option>
+                    <option>Địa phương</option>
+                  </select>
+                </a>
+                <a class="dropdown-item" href="#">
+                  <select class="form-control">
+                    <option>Quận/Huyện ...</option>
+                    <option>Hồ Chí Minh</option>
+                    <option>Vũng Tàu</option>
+                  </select>
+                </a>
+                <a class="dropdown-item" href="#">
+                  <select class="form-control">
+                    <option>Đường phố ...</option>
+                    <option>Nguyễn Huệ</option>
+                    <option>Phạm Văn Đồng</option>
+                  </select>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                  <select class="form-control">
+                    <option>Vị trí</option>
+                    <option>Nguyễn Huệ</option>
+                    <option>Phạm Văn Đồng</option>
+                  </select>
+                </a>
+                <a class="dropdown-item" href="#">
+                  <select class="form-control">
+                    <option>Khoảng cách</option>
+                    <option>Nguyễn Huệ</option>
+                    <option>Phạm Văn Đồng</option>
+                  </select>
+                </a>
+                <div class="dropdown-divider"></div>
+                <div class="button-group">
+                  <button type="button" style="margin-left: 5%;" class="btn btn-outline-primary">Áp dụng</button>
+                  <button type="button" style="float: right;margin-right: 5%;"
+                    class="btn btn-outline-secondary">Đóng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="btn-group" role="group">
+              <button id="dropdownLoai" type="button" class="btn btn-light btn-popup dropdown-toggle"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Loại
+              </button>
+              <div class="dropdown-menu" style="width: 280px;" aria-labelledby="dropdownLoai">
+                <a class="dropdown-item" href="#">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                      Phòng trọ
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item" href="#">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                      Nhà/Căn hộ cho thuê
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item" href="#">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                      Tìm ở ghép
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item" href="#">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                      Tìm phòng
+                    </label>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <div class="button-group">
+                  <button type="button" style="margin-left: 5%;" class="btn btn-outline-primary">Áp dụng</button>
+                  <button type="button" style="float: right;margin-right: 5%;"
+                    class="btn btn-outline-secondary">Đóng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="btn-group" role="group">
+              <button id="dropdownGia" type="button" class="btn btn-light btn-popup dropdown-toggle"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Giá
+              </button>
+              <div class="dropdown-menu" style="width: 250px;" aria-labelledby="dropdownGia">
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      Phòng trọ
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      Dưới 1 triệu
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      1 triệu - 2 triệu
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      2 triệu - 5 triệu
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      5 triệu - 7 triệu
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      7 triệu - 10 triệu
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      10 triệu - 15 triệu
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      Trên 15 triệu
+                    </label>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <div class="button-group">
+                  <button type="button" style="margin-left: 5%;" class="btn btn-outline-primary">Áp dụng</button>
+                  <button type="button" style="float: right;margin-right: 5%;"
+                    class="btn btn-outline-secondary">Đóng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="btn-group" role="group">
+              <button id="dropdownThem" type="button" class="btn btn-light btn-popup dropdown-toggle"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Thêm tiêu chí
+              </button>
+              <div class="dropdown-menu" style="width: 500px;" aria-labelledby="dropdownThem">
+                <a class="dropdown-item" href="#">
+                  <select class="form-control">
+                    <option>Diện tích ...</option>
+                    <option>Dưới 50 m²</option>
+                    <option>50 m² - 100 m²</option>
+                    <option>100 m² - 200 m²</option>
+                    <option>Trên 200 m²</option>
+                  </select>
+                </a>
+                <a class="dropdown-item" href="#">
+                  <select class="form-control">
+                    <option>Giới tính ...</option>
+                    <option>Nam</option>
+                    <option>Nữ</option>
+                    <option>Khác</option>
+                  </select>
+                </a>
+                <a class="dropdown-item" href="#">
+                  <select class="form-control">
+                    <option>Cho tự quản ...</option>
+                    <option>Có</option>
+                    <option>Không</option>
+                  </select>
+                </a>
+                <div class="dropdown-divider"></div>
+                <p style="margin-left: 5%;">Hình thức</p>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Phòng trọ
+                        </label>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Chung cư mini
+                        </label>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Trọ trong nhà chung chủ
+                        </label>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Ký túc xá
+                        </label>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Cư xá
+                        </label>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Trọ nhà nguyên căn
+                        </label>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <p style="margin-left: 5%;">Xác thực</p>
+                <a class="dropdown-item" href="#">
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                      Được xác thực
+                    </label>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <div class="form-group dropdown-item">
+                  <label for="">Số người tối đa trong phòng</label>
+                  <input type="number" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                </div>
+                <div class="dropdown-divider"></div>
+                <p style="margin-left: 5%;">Tiện nghi</p>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Gác lửng
+                        </label>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Vệ sinh trong
+                        </label>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Điều hòa
+                        </label>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Bãi xe riêng
+                        </label>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Wifi
+                        </label>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Máy giặt
+                        </label>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Tủ lạnh
+                        </label>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <p style="margin-left: 5%;">Đối tượng</p>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Đi học
+                        </label>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Gia đình
+                        </label>
+                      </div>
+                    </a>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Đi làm
+                        </label>
+                      </div>
+                    </a>
+                    <a class="dropdown-item" href="#">
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+                          Cặp đôi
+                        </label>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="dropdown-divider"></div>
+                <div class="button-group">
+                  <button type="button" style="margin-left: 5%;" class="btn btn-outline-primary">Áp dụng</button>
+                  <button type="button" style="float: right;margin-right: 5%;"
+                    class="btn btn-outline-secondary">Đóng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-primary btn-popup">
+              Tìm kiếm
             </button>
           </div>
         </div>
-
-        <div class="input-group">
-          <button type="button" class="btn">Địa điểm</button>
-          <button type="button" class="btn">Loại</button>
-          <button type="button" class="btn">Giá</button>
-          <button type="button" class="btn">Thêm tiêu chí</button>
-          <button type="button" class="btn">Tìm kiếm</button>
-        </div>
       </div>
+
+
+
     </div>
   </div>
 

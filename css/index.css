@@ -19,21 +19,21 @@ footer{
 }
 
 .header-home .header-content {
-    width: 65%;
+    width: 70%;
     height: 65%;
-    background-color: white;
-    /* opacity: 35%; */
+    background-color: black;
+    opacity: 35%!important;
     border-radius: 1em;
     position: absolute;
     top: 18%;
-    left: 18%;
+    left: 14%;
 }
 
-.header-content .block-search{
+.header-home .block-search{
     position: absolute;
-    width:84%;
-    top: 18%;
-    left: 7%;
+    width:55%;
+    top: 35%;
+    left: 21%;
 }
 
 .main{
@@ -43,7 +43,7 @@ footer{
 
 .block-type1 {
     background-color: red;
-    height: 180px; /* auto */
+    height: 180px;
     width: 100%;
 }
 .block-type2 {
@@ -72,7 +72,23 @@ footer{
 }
 
 .mr-btn{
-    /* position: absolute;
-    right: 0px; */
+    /* position: inherit;
+    margin-right: 0px; */
 }
+.block-search .col .btn-group {
+    position:absolute;
+    width:100%;
+    left:0px;
+    border-radius: 0%;
+}
+
+.btn-popup {
+    position:absolute;
+    height: 45px;
+    width:100%;
+    top: 25px;
+    left:0px;
+    border-radius: 0%;
+}
+
 
