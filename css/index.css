@@ -52,7 +52,7 @@ footer {
     position: relative;
     width: 100%;
     clear: both;
-    width: 1792px;
+    width: 3000px;
 }
 
 .wrapper .block1 {
@@ -292,4 +292,61 @@ footer {
 
 .header-search-result .block-search button {
     border: 1px ridge black;
+}
+
+/* room detail */
+.header-room-detail{
+    position: relative;
+    height: 400px;
+    background-color: black;
+}
+
+.block-img {
+    position: relative;
+    display: inline-flex;
+    height: 400px;
+    width: 600px;
+    margin-right: 5px;
+}
+
+.block-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+}
+
+.btn-slide-left-room-detail {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: mintcream;
+    opacity: 80%;
+    position: absolute;
+    left: 1%;
+    top: 34%;
+}
+
+.btn-slide-left-room-detail i{
+    position: absolute;
+    top: 27%;
+    left: 31%;
+}
+
+.btn-slide-right-room-detail {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: mintcream;
+    opacity: 80%;
+    position: absolute;
+    right: 2%;
+    top: 34%;
+}
+
+.btn-slide-right-room-detail i{
+    position: absolute;
+    top: 27%;
+    left: 37%;
 }
