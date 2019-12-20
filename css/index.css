@@ -146,6 +146,7 @@ footer {
     border-radius: 0%;
 }
 
+
 .btn-popup {
     position: absolute;
     height: 45px;
@@ -266,4 +267,29 @@ footer {
     position: relative;
     margin-left: 7%;
     margin-right: 7%;
+}
+
+
+/* result search */
+
+.header-search-result {
+    position: relative;
+    border: 1px solid black;
+    height: 70px;
+    width: 60%;
+    border-radius: 1em;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.header-search-result .block-search {
+    position: absolute;
+    top: -12px;
+    left: 2%;
+    width: 96%;
+}
+
+.header-search-result .block-search button {
+    border: 1px ridge black;
 }
