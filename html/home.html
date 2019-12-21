@@ -19,7 +19,7 @@
     <!-- Nav tabs -->
     <nav class="navbar navbar-expand-lg navbar-light">
 
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="./home.html">
         <img src="../img/logo.png" width="50" height="50" alt="##">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -29,17 +29,12 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Thêm nhà/phòng cho thuê</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Đã lưu</a>
+            <a class="nav-link" href="./Timoghep.html">Tìm ở ghép</a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#">Tin nhắn</a>
@@ -68,7 +63,7 @@
 
     <div class="block-search">
       <div class="input-group">
-        <input type="text" style="height: 45px;" class="form-control" placeholder="Search">
+        <input type="text" style="height: 45px;" class="form-control" placeholder="Tìm kiếm nhanh">
         <div class="input-group-append">
           <button class="btn btn-primary">
             <i class="fa fa-search"></i>
@@ -184,15 +179,7 @@
                 Giá
               </button>
               <div class="dropdown-menu" style="width: 250px;" aria-labelledby="dropdownGia">
-                <a class="dropdown-item">
-                  <div class="form-check">
-                    <label class="form-check-label" for="radio1">
-                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
-                      Phòng trọ
-                    </label>
-                  </div>
-                </a>
-                <a class="dropdown-item">
+               <a class="dropdown-item">
                   <div class="form-check">
                     <label class="form-check-label" for="radio1">
                       <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
@@ -245,6 +232,85 @@
                     <label class="form-check-label" for="radio1">
                       <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
                       Trên 15 triệu
+                    </label>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <div class="button-group">
+                  <button type="button" style="margin-left: 5%;" class="btn btn-outline-primary">Áp dụng</button>
+                  <button type="button" style="float: right;margin-right: 5%;"
+                    class="btn btn-outline-secondary">Đóng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="btn-group" role="group">
+              <button id="dropdownGia" type="button" class="btn btn-light btn-popup dropdown-toggle"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Khoảng cách
+              </button>
+              <div class="dropdown-menu" style="width: 250px;" aria-labelledby="dropdownGia">
+               <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      Dưới 1,0 km
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      1,0 km - 2,0 km                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      2,0 km - 3,0 km
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      3,0 km - 4,0 km
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      4,0 km - 5,0 km
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      5,0 km - 7,0 km 
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      7,0 km - 10 km
+                    </label>
+                  </div>
+                </a>
+                <a class="dropdown-item">
+                  <div class="form-check">
+                    <label class="form-check-label" for="radio1">
+                      <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">
+                      Trên 10 km
                     </label>
                   </div>
                 </a>
@@ -341,7 +407,7 @@
             <div class="btn-group" role="group">
               <button id="dropdownThem" type="button" class="btn btn-light btn-popup dropdown-toggle"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Thêm tiêu chí
+                Tiêu chí
               </button>
               <div class="dropdown-menu" style="width: 500px;" aria-labelledby="dropdownThem">
                 <a class="dropdown-item" href="#">
@@ -555,13 +621,21 @@
               </div>
             </div>
           </div>
+<<<<<<< HEAD
 
+=======
+          
+>>>>>>> bfad859f9c1f5111de9d1485218afdbb75039c84
           <div class="col">
             <a href="./search-result.html">
               <button type="button" class="btn btn-primary btn-popup">
                 Tìm kiếm
               </button>
             </a>
+<<<<<<< HEAD
+=======
+            
+>>>>>>> bfad859f9c1f5111de9d1485218afdbb75039c84
           </div>
         </div>
       </div>
