@@ -21,21 +21,21 @@ footer {
 }
 
 .header-home .header-content {
-    width: 70%;
+    width: 75%;
     height: 65%;
     background-color: black;
     opacity: 35%!important;
     border-radius: 1em;
     position: absolute;
     top: 18%;
-    left: 14%;
+    left: 12%;
 }
 
 .header-home .block-search {
     position: absolute;
-    width: 55%;
+    width: 64%;
     top: 35%;
-    left: 21%;
+    left: 17%;
 }
 
 .main{
@@ -56,6 +56,7 @@ footer {
 }
 
 .wrapper .block1 {
+    cursor: pointer;
     position: relative;
     display: inline-flex;
     height: 340px;
@@ -64,6 +65,7 @@ footer {
     background-image: url('../img/quan1.jpg');
 }
 .wrapper .block2 {
+    cursor: pointer;
     position: relative;
     display: inline-flex;
     height: 340px;
@@ -72,6 +74,7 @@ footer {
     background-image: url('../img/quan2.jpg');
 }
 .wrapper .block3 {
+    cursor: pointer;
     position: relative;
     display: inline-flex;
     height: 340px;
@@ -80,6 +83,7 @@ footer {
     background-image: url('../img/thuduc.jpeg');
 }
 .wrapper .block4 {
+    cursor: pointer;
     position: relative;
     display: inline-flex;
     height: 340px;
@@ -88,6 +92,7 @@ footer {
     background-image: url('../img/tanbinh.jpg');
 }
 .wrapper .block5 {
+    cursor: pointer;
     position: relative;
     display: inline-flex;
     height: 340px;
@@ -97,6 +102,7 @@ footer {
 }
 
 .wrapper .block6 {
+    cursor: pointer;
     position: relative;
     display: inline-flex;
     height: 340px;
@@ -104,6 +110,7 @@ footer {
     border-radius: 1em;
 }
 .wrapper .block7 {
+    cursor: pointer;
     position: relative;
     display: inline-flex;
     height: 340px;
@@ -111,6 +118,7 @@ footer {
     border-radius: 1em;
 }
 .wrapper .block8 {
+    cursor: pointer;
     position: relative;
     display: inline-flex;
     height: 340px;
@@ -118,6 +126,7 @@ footer {
     border-radius: 1em;
 }
 .wrapper .block9 {
+    cursor: pointer;
     position: relative;
     display: inline-flex;
     height: 340px;
@@ -125,6 +134,7 @@ footer {
     border-radius: 1em;
 }
 .wrapper .block10 {
+    cursor: pointer;
     position: relative;
     display: inline-flex;
     height: 340px;
@@ -157,6 +167,7 @@ footer {
 }
 
 .block-type img {
+    cursor: pointer;
     width: 100%;
     height: 115px;
 }
@@ -276,7 +287,7 @@ footer {
     position: relative;
     border: 1px solid black;
     height: 70px;
-    width: 60%;
+    width: 65%;
     border-radius: 1em;
     margin: auto;
     margin-top: 30px;
@@ -341,7 +352,7 @@ footer {
     background-color: mintcream;
     opacity: 80%;
     position: absolute;
-    right: 2%;
+    right: 1%;
     top: 34%;
 }
 
@@ -350,3 +361,33 @@ footer {
     top: 27%;
     left: 37%;
 }
+
+.room-detail{
+    position: relative;
+}
+
+.room-detail .form-inline{
+    position: relative;
+}
+
+.room-detail .form-group {
+    position: relative;
+    width: 100%;
+}
+
+.room-detail .form-group i{
+    color: #18A0FB;
+    position: relative;
+}
+
+.room-detail .form-group p{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.room-detail .form-group h5{
+    position: relative;
+}
+
