@@ -1,0 +1,406 @@
+body {
+    overflow-x: hidden;
+}
+
+footer {
+    margin-top: 40px;
+    background-image: url('../img/footer.png');
+}
+
+
+.avatar {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+}
+
+.header-home {
+    background: url(../img/home-header.jpg);
+    height: 370px;
+    position: relative;
+}
+
+.header-home .header-content {
+    width: 75%;
+    height: 65%;
+    background-color: black;
+    opacity: 35%!important;
+    border-radius: 1em;
+    position: absolute;
+    top: 18%;
+    left: 12%;
+}
+
+.header-home .block-search {
+    position: absolute;
+    width: 64%;
+    top: 35%;
+    left: 17%;
+}
+
+.header-search-graft {
+    background: url(../img/timoghep-header.jpg);
+    height: 370px;
+    position: relative; 
+}
+
+.header-search-graft .header-content {
+    width: 70%;
+    height: 65%;
+    background-color: black;
+    opacity: 35%!important;
+    border-radius: 1em;
+    position: absolute;
+    top: 18%;
+    left: 14%;
+}
+
+.header-search-graft .block-search {
+    position: absolute;
+    width: 55%;
+    top: 35%;
+    left: 21%;
+}
+
+.main{
+    margin-left: 1%;
+}
+
+.section {
+    position: relative;
+    margin-top: 35px;
+}
+
+.wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    clear: both;
+    width: 3000px;
+}
+
+.wrapper .block1 {
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    height: 340px;
+    width: 256px;
+    border-radius: 1em;
+    background-image: url('../img/quan1.jpg');
+}
+.wrapper .block2 {
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    height: 340px;
+    width: 256px;  
+    border-radius: 1em;
+    background-image: url('../img/quan2.jpg');
+}
+.wrapper .block3 {
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    height: 340px;
+    width: 256px;
+    border-radius: 1em;
+    background-image: url('../img/thuduc.jpeg');
+}
+.wrapper .block4 {
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    height: 340px;
+    width: 256px;
+    border-radius: 1em;
+    background-image: url('../img/tanbinh.jpg');
+}
+.wrapper .block5 {
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    height: 340px;
+    width: 256px;
+    border-radius: 1em;
+    background-image: url('../img/quan7.jpg');
+}
+
+.wrapper .block6 {
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    height: 340px;
+    width: 256px;
+    border-radius: 1em;
+}
+.wrapper .block7 {
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    height: 340px;
+    width: 256px;  
+    border-radius: 1em;
+}
+.wrapper .block8 {
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    height: 340px;
+    width: 256px;
+    border-radius: 1em;
+}
+.wrapper .block9 {
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    height: 340px;
+    width: 256px;
+    border-radius: 1em;
+}
+.wrapper .block10 {
+    cursor: pointer;
+    position: relative;
+    display: inline-flex;
+    height: 340px;
+    width: 256px;
+    border-radius: 1em;
+}
+
+.block-content {
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
+    color: white;
+}
+
+.block-search .col .btn-group {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    border-radius: 0%;
+}
+
+
+.btn-popup {
+    position: absolute;
+    height: 45px;
+    width: 100%;
+    top: 25px;
+    left: 0px;
+    border-radius: 0%;
+}
+
+.block-type img {
+    cursor: pointer;
+    width: 100%;
+    height: 115px;
+}
+
+.content-type p {
+    font-size: 80%;
+    opacity: 80%;
+    
+}
+
+.content-type {
+    border: 1px ;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(221, 213, 213) ;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.btn-slide-left-search {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: mintcream;
+    opacity: 80%;
+    position: absolute;
+    left: 1%;
+    top: 47%;
+}
+
+.btn-slide-left-search i{
+    position: absolute;
+    top: 27%;
+    left: 31%;
+}
+
+.btn-slide-right-search {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: mintcream;
+    opacity: 80%;
+    position: absolute;
+    right: 2%;
+    top: 47%;
+}
+
+.btn-slide-right-search i{
+    position: absolute;
+    top: 27%;
+    left: 37%;
+}
+
+.wrapper img{
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    border-radius: 1em;
+    margin-top: 0px;
+}
+
+.btn-slide-left-room {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: mintcream;
+    opacity: 80%;
+    position: absolute;
+    left: 1%;
+    top: 34%;
+}
+
+.btn-slide-left-room i{
+    position: absolute;
+    top: 27%;
+    left: 31%;
+}
+
+.btn-slide-right-room {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: mintcream;
+    opacity: 80%;
+    position: absolute;
+    right: 3%;
+    top: 34%;
+}
+
+.btn-slide-right-room i{
+    position: absolute;
+    top: 27%;
+    left: 37%;
+}
+
+.room-content {
+    position: absolute;
+    top: 160px;
+}
+
+.room-content p{
+    position: relative;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.room-content h5{
+    position: relative;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+
+/* result search */
+
+.header-search-result {
+    position: relative;
+    border: 1px solid black;
+    height: 70px;
+    width: 65%;
+    border-radius: 1em;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.header-search-result .block-search {
+    position: absolute;
+    top: -12px;
+    left: 2%;
+    width: 96%;
+}
+
+.header-search-result .block-search button {
+    border: 1px ridge black;
+}
+
+/* room detail */
+.header-room-detail{
+    position: relative;
+    height: 400px;
+    background-color: black;
+}
+
+.block-img {
+    position: relative;
+    display: inline-flex;
+    height: 400px;
+    width: 600px;
+    margin-right: 5px;
+}
+
+.block-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0%;
+}
+
+.btn-slide-left-room-detail {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: mintcream;
+    opacity: 80%;
+    position: absolute;
+    left: 1%;
+    top: 34%;
+}
+
+.btn-slide-left-room-detail i{
+    position: absolute;
+    top: 27%;
+    left: 31%;
+}
+
+.btn-slide-right-room-detail {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: mintcream;
+    opacity: 80%;
+    position: absolute;
+    right: 1%;
+    top: 34%;
+}
+
+.btn-slide-right-room-detail i{
+    position: absolute;
+    top: 27%;
+    left: 37%;
+}
+
+.room-detail{
+    position: relative;
+}
+
+.room-detail .form-inline{
+    position: relative;
+}
+
+.room-detail .form-group {
+    position: relative;
+    width: 100%;
+}
+
+.room-detail .form-group i{
+    color: #18A0FB;
+    position: relative;
+}
+

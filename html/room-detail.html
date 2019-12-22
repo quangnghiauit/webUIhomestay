@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="../img/logo.png" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../fontawesome/css/all.css">
+  <title>AirBnB</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- Nav tabs -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+
+      <a class="navbar-brand" href="./home.html">
+        <img src="../img/logo.png" width="50" height="50" alt="##">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Thêm nhà/phòng cho thuê</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Đã lưu</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Tin nhắn</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Trợ giúp</a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <img src="../img/avatar.jpg" class="avatar" alt="##">
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Profile</a>
+              <a class="dropdown-item" href="#">Đăng xuất</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="header-room-detail">
+    <div class="wrapper">
+      <div class="block-img">
+        <img src="../img/room1.jpg" alt="##">
+      </div>
+      <div class="block-img">
+        <img src="../img/room2.jpg" alt="##">
+      </div>
+      <div class="block-img">
+        <img src="../img/room1.jpg" alt="##">
+      </div>
+    </div>
+    <div class="btn-slide">
+      <div class="btn-slide-left-room-detail">
+        <i class="fas fa-chevron-left fa-2x"></i>
+      </div>
+      <div class="btn-slide-right-room-detail">
+        <i class="fas fa-chevron-right fa-2x"></i>
+      </div>
+    </div>
+  </div>
+
+  <div class="container room-detail">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="section">
+          <h1><b>Phòng trọ N327 - YTH</b></h1>
+          <form class="form-inline">
+            <div class="form-group">
+              <i class="fas fa-map-marker-alt fa-2x"></i>
+              <span><b>Dĩ An, Thủ Đức, Hồ Chí Minh, Việt Nam</b></span>
+              <button type="button" class="btn btn-link">
+                <h5>Xem bản đồ</h5>
+              </button>
+            </div>
+          </form>
+          <form class="form-inline">
+            <div class="form-group">
+              <i class="far fa-building fa-2x"></i>
+              <p><b>Phòng trọ</b> - 20 m²</p>
+            </div>
+          </form>
+          <p>Phòng riêng - 1 nhà tắm - 1 nhà vệ sinh - 1 gác - 4 khách(tối đa 4 khách)</p>
+
+        </div>
+      </div>
+      <div class="col-sm-4" style="background-color:green;height:400px;">
+
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <img src="../img/footer.png">
+  </footer>
+
+  <script src="../js/jquery-3.4.1.slim.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
