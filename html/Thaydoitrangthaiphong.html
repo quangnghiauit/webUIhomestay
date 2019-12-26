@@ -15,9 +15,13 @@
 <link rel="stylesheet" type="text/css" href="../css/changestatusroom/jquery.ui.plupload.css" />
 <link rel="stylesheet" type="text/css" href="../css/changestatusroom/jquery-ui.css" />
 <link rel="stylesheet" type="text/css" href="../css/changestatusroom/bootstrap-wysihtml5.css" />
-		<link rel="stylesheet" type="text/css" href="../css/changestatusroom/select2.min.css" />
 
-<!-- DO NOT MODIFY -->
+<link rel="stylesheet" type="text/css" href="../css/changestatusroom/select2.min.css" />
+<link rel="stylesheet" type="text/css" href="../css/changestatusroom/icon.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="../fontawesome//css/all.css	" rel="stylesheet"> <!--load all styles -->
+		<!-- DO NOT MODIFY -->
 <!-- End Facebook Pixel Code -->	</head>
 	<body >
 
@@ -132,51 +136,43 @@
                         <div class="row">
 								<label>Phòng 1</label>
 								<ul class="boxes">
-                                    <label>Phòng trọ số 5, ngõ 6 Điện Biên Phủ</label>
-									<li>
-										<input type="checkbox" id="object_type[study]" name="object_type[study]" value="1" >
-										<label for="object_type[study]">Đi học</label>
-									</li>
-									<li>
-										<input type="checkbox" id="object_type[work]" name="object_type[work]" value="1" >
-										<label for="object_type[work]">Đi làm</label>
-									</li>
-									<li>
-										<input type="checkbox" id="object_type[family]" name="object_type[family]" value="1" >
-										<label for="object_type[family]">Gia đình</label>
-									</li>
-									<li>
-										<input type="checkbox" id="object_type[couple]" name="object_type[couple]" value="1" >
-										<label for="object_type[couple]">Cặp đôi</label>
-									</li>
+									
+									<label>Phòng trọ số 5, ngõ 6 Điện Biên Phủ</label>
+									<i class="far fa-edit ttp__icon" style="margin: 0 12px; cursor: pointer"  data-toggle="modal" data-target="#myModal"	></i> <!-- uses solid style -->
+									<i class="far fa-eye ttp__icon" ></i> <!-- uses regular style -->
+									<i class="fas fa-trash ttp__icon"></i> <!-- uses light style -->
+									<label>Trạng thái: Còn phòng</label>
+									<label>Thời gian đăng: 22-12-2019 19:43:40</label>
+									<label>Thời gian tạo: 22-12-2019 19:43:40</label>
 								</ul>
+								<!-- Modal -->
+								<div id="myModal" class="modal fade" role="dialog">
+									<div class="modal-dialog">
+								
+									<!-- Modal content-->
+									<div class="modal-content">
+										<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Thay doi trang thai</h4>
+										</div>
+										<div class="modal-body">
+											<div class="radio">
+												<label><input type="radio" name="optradio" checked>Option 1</label>
+											  </div>
+											  <div class="radio">
+												<label><input type="radio" name="optradio">Option 2</label>
+											  </div>
+										</div>
+										<div class="modal-footer">
+										<button type="button" class="btn btn-default ptt-button" data-dismiss="modal">Cap Nhat</button>
+										</div>
+									</div>
+								
+									</div>
+								</div>
                             </div>
                             <div class="clear"></div>
 						    <div class="line"></div> 
-                            <div class="row">
-								<label>Phòng 2</label>
-								<ul class="boxes">
-                                    <label>Phòng trọ số 5, ngõ 6 Điện Biên Phủ</label>
-									<li>
-										<input type="checkbox" id="object_type[study]" name="object_type[study]" value="1" >
-										<label for="object_type[study]">Đi học</label>
-									</li>
-									<li>
-										<input type="checkbox" id="object_type[work]" name="object_type[work]" value="1" >
-										<label for="object_type[work]">Đi làm</label>
-									</li>
-									<li>
-										<input type="checkbox" id="object_type[family]" name="object_type[family]" value="1" >
-										<label for="object_type[family]">Gia đình</label>
-									</li>
-									<li>
-										<input type="checkbox" id="object_type[couple]" name="object_type[couple]" value="1" >
-										<label for="object_type[couple]">Cặp đôi</label>
-									</li>
-								</ul>
-							</div>
-							<div class="clear"></div>
-							<div class="line"></div>
 						</div>
 					</form>				</div>
 			</div>
