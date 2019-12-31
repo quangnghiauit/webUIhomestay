@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="../img/logo.png" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <title>AirBnB</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- Nav tabs -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+
+            <a class="navbar-brand" href="./home.html">
+                <img src="../img/logo.png" width="50" height="50" alt="##">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" style="margin-top: 5px;" href="#">ĐĂNG BÀI</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="margin-top: 5px;" href="./Timoghep.html">TÌM Ở GHÉP</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="margin-top: 5px;" href="#">LIÊN HỆ</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="../img/avatar.jpg" class="avatar" alt="##">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <a class="dropdown-item" href="#">Đăng xuất</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="register_room_1">
+        <div class="content">
+            <div class="section" style="padding-top: 25px;">
+                <h2><b>Vị trí</b></h2>
+                <div class="row">
+                    <div class="col-5">
+                        <button type="button" class="btn btn-outline-primary">Sử dụng vị trí hiện tại</button>
+                        <img src="../img/map.png" width="100%" height="auto" alt="##">
+                    </div>
+                    <div class="col-7">
+                        <div class="form-group">
+                            <label for="city">Thành phố</label>
+                            <select class="form-control" id="city">
+                                <option>Hồ Chí Minh</option>
+                                <option>Hà Nội</option>
+                                <option>Đà Nẵng</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="district">Quận/Huyện</label>
+                            <select class="form-control" id="district">
+                                <option>Thủ Đức</option>
+                                <option>Quận 1</option>
+                                <option>Quận 2</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="ward">Phường</label>
+                            <select class="form-control" id="ward">
+                                <option>Linh trung</option>
+                                <option>Linh Xuân</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="street">Tên đường</label>
+                            <select class="form-control" id="street">
+                                <option>Võ Văn Ngân</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="house">Số nhà</label>
+                            <select class="form-control" id="house">
+                                <option>118</option>
+                                <option>119</option>
+                                <option>201</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <div class="section">
+                <h2><b>Thông tin địa điểm cho thuê</b></h2>
+                <div style="margin-top: 30px;">
+                    <h5>Loại phòng</h5>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <button type="button" class="btn btn-dark" style="margin-left: 35px;">Căn hộ</button>
+                            <button type="button" class="btn btn-outline-dark" style="margin-left: 5px;">Phòng
+                                trọ</button>
+                            <button type="button" class="btn btn-outline-dark" style="margin-left: 5px;">Phòng
+                                chia sẻ</button>
+                            <button type="button" class="btn btn-outline-dark" style="margin-left: 5px;">Ký túc
+                                xá</button>
+                            <button type="button" class="btn btn-outline-dark" style="margin-left: 5px;">Khác</button>
+                        </div>
+                    </form>
+                </div>
+                <div style="margin-top: 20px;">
+                    <h5>Khách cho thuê</h5>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <button type="button" class="btn btn-dark" style="margin-left: 35px;">Tất cả</button>
+                            <button type="button" class="btn btn-outline-dark" style="margin-left: 5px;">Sinh
+                                viên</button>
+                            <button type="button" class="btn btn-outline-dark" style="margin-left: 5px;">Công
+                                nhân</button>
+                            <button type="button" class="btn btn-outline-dark" style="margin-left: 5px;">Khác</button>
+                        </div>
+                    </form>
+                </div>
+                <div style="margin-top: 20px;">
+                    <h5>Số lượng phòng</h5>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input type="text" style="margin-left: 35px;" class="form-control">
+                            <div style="margin-left: 15px;"><b>(Phòng)</b></div>
+                        </div>
+                    </form>
+                </div>
+
+                <div style="margin-top: 20px;">
+                    <h5>Diện tích</h5>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input type="text" style="margin-left: 35px;" class="form-control">
+                            <div style="margin-left: 15px;"><b>(M²)</b></div>
+                        </div>
+                    </form>
+                </div>
+                <div style="margin-top: 20px;">
+                    <h5>Sức chứa</h5>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input type="text" style="margin-left: 35px;" class="form-control">
+                            <div style="margin-left: 15px;"><b>(Người)</b></div>
+                        </div>
+                    </form>
+                </div>
+                <hr>
+            </div>
+            <div class="section">
+                <h2><b>Hình ảnh</b></h2>
+                <div class="slide-img" style="position: relative;margin-left: 5%;">
+                    <img src="../img/img-upload.png" width="30%">
+                    <img src="../img/img-upload.png" width="30%">
+                    <img src="../img/img-upload.png" width="30%">
+                    <div class="btn-slide-left-register">
+                        <i class="fas fa-chevron-left fa-lg"></i>
+                    </div>
+                    <div class="btn-slide-right-register">
+                        <i class="fas fa-chevron-right fa-lg"></i>
+                    </div>
+                </div>
+                <button type="button" style="margin-left: 40%;margin-top: 15px;" class="btn btn-outline-primary">Upload
+                    hình ảnh</button>
+                <hr>
+            </div>
+            <div class="section">
+                <h2><b>Mô tả và tiện ích</b></h2>
+                <div class="form-group" style="margin-top: 20px;">
+                    <h5>Tiêu đề</h5>
+                    <input type="text" class="form-control" style="width:85%;margin-left: 5%;"
+                        placeholder="Tiêu đề bài đăng">
+                </div>
+                <div class="form-group" style="margin-top: 20px;">
+                    <h5>Tiện ích</h5>
+                    <div class="row" style="margin-left: 4%;">
+                        <div class="col-4">
+                            <button type="button" class="btn btn-outline-dark" style="width: 100%;">
+                                <i class="fa fa-wifi" aria-hidden="true"></i>
+                                Internet
+                            </button>
+                            <button type="button" class="btn btn-outline-dark" style="width: 100%;margin-top:15px;">
+                                <i class="fa fa-key" aria-hidden="true"></i>
+                                Chung chủ
+                            </button>
+                            <button type="button" class="btn btn-outline-dark" style="width: 100%;margin-top:15px;">
+                                <i class="fab fa-flipboard"></i>
+                                Có gác
+                            </button>
+                            <button type="button" class="btn btn-outline-dark" style="width: 100%;margin-top:15px;">
+                                <i class="fas fa-fan"></i>
+                                Máy lạnh
+                            </button>
+                            <button type="button" class="btn btn-outline-dark" style="width: 100%;margin-top:15px;">
+                                <i class="fa fa-bed" aria-hidden="true"></i>
+                                Giường
+                            </button>
+                        </div>
+                        <div class="col-4">
+                            <button type="button" class="btn btn-outline-dark" style="width: 100%;">
+                                <i class="fa fa-car" aria-hidden="true"></i>
+                                Giữ xe
+                            </button>
+                            <button type="button" class="btn btn-outline-dark" style="width: 100%;margin-top:15px;">
+                                <i class="fas fa-toilet"></i>
+                                WC Riêng
+                            </button>
+                            <button type="button" class="btn btn-outline-dark" style="width: 100%;margin-top:15px;">
+                                <i class="fas fa-user-shield"></i>
+                                An ninh
+                            </button>
+                            <button type="button" class="btn btn-outline-dark" style="width: 100%;margin-top:15px;">
+                                <i class="fab fa-envira"></i>
+                                Ban công
+                            </button>
+                            <button type="button" class="btn btn-outline-dark" style="width: 100%;margin-top:15px;">
+                                <i class="fab fa-envira"></i>
+                                Tủ lạnh
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group" style="margin-top: 20px;">
+                    <h5>Mô tả</h5>
+                    <input type="text" style="width:85%;margin-left: 5%;min-height: 150px;">
+                </div>
+            </div>
+            <div class="section" style="padding-bottom: 40px;">
+                <div class="row">
+                    <div class="col-9"></div>
+                    <div class="col-2">
+                        <button type="button" class="btn btn-primary" style="width: 100%;">Lưu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer style="clear: both; margin-top: 0px;">
+        <img src="../img/footer.png">
+    </footer>
+
+    <script src="../js/jquery-3.4.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -404,3 +404,108 @@ footer {
     position: relative;
 }
 
+.register_room_1{
+    background-color:  rgb(107, 104, 104);
+}
+
+.register_room_1 .content {
+    background-color: white;
+    max-width: 80%;
+    margin: auto;
+}
+
+.register_room_1 .content .section{
+    max-width: 90%;
+    margin: auto;
+}
+
+.btn-slide-left-register {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(43, 42, 42);
+    opacity: 80%;
+    position: absolute;
+    left: 2%;
+    top: 40%;
+}
+
+.btn-slide-left-register i{
+    position: absolute;
+    color: white;
+    top: 34%;
+    left: 35%;
+}
+
+.btn-slide-right-register {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(43, 42, 42);
+    opacity: 80%;
+    position: absolute;
+    right: 11%;
+    top: 40%;
+}
+
+.btn-slide-right-register i{
+    position: absolute;
+    color: white;
+    top: 34%;
+    left: 35%;
+}
+
+.register_room_2{
+    background-color: rgb(107, 104, 104);
+}
+
+.register_room_2 .content {
+    background-color: white;
+    max-width: 55%;
+    margin: auto;
+}
+
+.register_room_2 .content .section{
+    position: relative;
+    max-width: 90%;
+    margin: auto;
+}
+
+/* popup message */
+.popup-message{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    width: 300px;
+}
+
+.popup-message #header-message{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(105, 201, 42);
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.popup-message #body-message{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+}
+
+.popup-message #footer-message{
+    width: 100%;
+    height: 42px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+}
