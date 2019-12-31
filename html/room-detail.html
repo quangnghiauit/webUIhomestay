@@ -114,9 +114,53 @@
     </div>
   </div>
 
+  <div class="popup-message">
+    <div id="header-message" style="cursor: pointer;" onclick="toggle()">
+      <div style="margin-top: 5px; margin-left: 5px;">
+        <img src="../img/avatar.jpg" style="width: 30px;height: 30px;border-radius: 50%;" alt="##">
+        <b>Liên hệ chủ nhà</b>
+      </div>
+    </div>
+    <div id="body-message">
+      <div style="margin-top: 15px; font-size: small; width: 80%;">
+        <div class="row">
+          <div class="col-2">
+            <img src="../img/avatar.jpg" style="width: 30px;height: 30px;border-radius: 50%; margin-left: 3px;" alt="##">
+          </div>
+          <div class="col-9" style="background-color: aqua; border-radius: 1em; margin-left: 8px;">
+            Chào bạn, tôi có thể giúp gì cho bạn !
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-message">
+      <div class="input-group" style="height: 100%;">
+        <input type="text" class="form-control" placeholder="Message..." style="height: 100%;">
+        <div class="input-group-append">
+          <span class="input-group-text" style="color: white; background-color: rgb(16, 165, 16); cursor: pointer;">
+            <i class="fas fa-paper-plane"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer>
     <img src="../img/footer.png">
   </footer>
+
+  <script>
+    function toggle(){
+      if(document.getElementById("body-message").style.display!='none'){
+        document.getElementById("body-message").style.display='none';
+        document.getElementById("footer-message").style.display='none';
+      }
+      else{
+        document.getElementById("body-message").style.display='block';
+        document.getElementById("footer-message").style.display='block';
+      }
+    }
+  </script>
 
   <script src="../js/jquery-3.4.1.slim.min.js"></script>
   <script src="../js/popper.min.js"></script>

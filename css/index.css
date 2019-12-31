@@ -470,3 +470,42 @@ footer {
     max-width: 90%;
     margin: auto;
 }
+
+/* popup message */
+.popup-message{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    width: 300px;
+}
+
+.popup-message #header-message{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(105, 201, 42);
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.popup-message #body-message{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+}
+
+.popup-message #footer-message{
+    width: 100%;
+    height: 42px;
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+}
