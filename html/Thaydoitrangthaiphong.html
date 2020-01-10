@@ -1,205 +1,232 @@
-
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/logo.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-		<link rel="stylesheet" type="text/css" href="../css/changestatusroom/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="../css/changestatusroom/jquery.fancybox.css" />
-		<link rel="stylesheet" type="text/css" href="../css/changestatusroom/guest.css" />
-<link rel="stylesheet" type="text/css" href="../css/changestatusroom/remodal.css" />
-<link rel="stylesheet" type="text/css" href="../css/changestatusroom/remodal-default-theme.css" />
-<link rel="stylesheet" type="text/css" href="../css/changestatusroom/jquery.ui.plupload.css" />
-<link rel="stylesheet" type="text/css" href="../css/changestatusroom/jquery-ui.css" />
-<link rel="stylesheet" type="text/css" href="../css/changestatusroom/bootstrap-wysihtml5.css" />
 
-<link rel="stylesheet" type="text/css" href="../css/changestatusroom/select2.min.css" />
-<link rel="stylesheet" type="text/css" href="../css/changestatusroom/icon.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<link href="../fontawesome//css/all.css	" rel="stylesheet"> <!--load all styles -->
-		<!-- DO NOT MODIFY -->
-<!-- End Facebook Pixel Code -->	</head>
-	<body >
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%PUBLIC_URL%/logo.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="theme-color" content="#000000" />
+	<meta name="description" content="Web site created using create-react-app" />
+	<link rel="stylesheet" type="text/css" href="../css/changestatusroom/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/changestatusroom/jquery.fancybox.css" />
+	<link rel="stylesheet" type="text/css" href="../css/changestatusroom/guest.css" />
+	<link rel="stylesheet" type="text/css" href="../css/changestatusroom/remodal.css" />
+	<link rel="stylesheet" type="text/css" href="../css/changestatusroom/remodal-default-theme.css" />
+	<link rel="stylesheet" type="text/css" href="../css/changestatusroom/jquery.ui.plupload.css" />
+	<link rel="stylesheet" type="text/css" href="../css/changestatusroom/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="../css/changestatusroom/bootstrap-wysihtml5.css" />
 
-<div class="page">
-  <div class="rd-mobilemenu">
-    <ul class="rd-mobilemenu_ul">
-  </div>
+	<link rel="stylesheet" type="text/css" href="../css/changestatusroom/select2.min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/changestatusroom/icon.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link href="../fontawesome//css/all.css	" rel="stylesheet">
 
-	<!-- HEADER -->
-    <header class="guest">
-        <div class="container">
-            <div class="container-inner full">
-    
-                <div class="logo">
-                    <a href="home.html"><img src="../img/logo.png" /></a>
-                </div>
-    
-                <div class="rd-mobilepanel">
-                    <button class="rd-mobilepanel_toggle"><span></span></button>
-                    <div class="rd-mobilepanel_title"></div>
-                </div>
-    
-                <div class="box-search">
-        <form>
-            <label class="opt search-form_label">
-            
-            <div id="search-form_result">
-                <div class="name"></div>
-                <div class="district"></div>
-                <div class="street"></div>
-                <div class="address"></div>
-            </div>
-        </form>
-    </div>
-                <div class="menu">
-                    <ul class="nav_top">
-                    <li class=""><a>ĐĂNG BÀI</a></li>
-                    <li class=""><a>TÌM Ở GHÉP</a></li>
-                    <li class=""><a>LIÊN HỆ</a></li>
-                    </ul>
-                </div>
-    
-                <div class="box-user">
-                                        <ul class="nav_user logged">
-                        </ul>
-                        <div class="user-info">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="dropdown">
-                                    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"> <img src="https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1789922981141292&height=50&width=50&ext=1579615051&hash=AeQOAjQ9ADFOBMGI" alt=""></a>
-                                </li>
-                            </ul>
-                        </div>
-                                    
-                    <div class="clear"></div>
-                </div>
-    
-                        </div>
-        </div>
-    </header>
+	<!--load all styles -->
+	<!-- DO NOT MODIFY -->
+	<!-- End Facebook Pixel Code -->
+</head>
 
-	<!-- MAIN-CONTNENT -->
+<body>
+
+	<div class="page">
+		<div class="rd-mobilemenu">
+			<ul class="rd-mobilemenu_ul">
+		</div>
+
+		<!-- HEADER -->
+		<header class="guest">
+			<div class="container">
+				<div class="container-inner full">
+
+					<div class="logo">
+						<a href="home.html"><img src="../img/logo.png" /></a>
+					</div>
+
+					<div class="rd-mobilepanel">
+						<button class="rd-mobilepanel_toggle"><span></span></button>
+						<div class="rd-mobilepanel_title"></div>
+					</div>
+
+					<div class="box-search">
+						<form>
+							<label class="opt search-form_label">
+
+								<div id="search-form_result">
+									<div class="name"></div>
+									<div class="district"></div>
+									<div class="street"></div>
+									<div class="address"></div>
+								</div>
+						</form>
+					</div>
+					<div class="menu" style="position: absolute;right: 5%;">
+						<ul class="nav_top">
+							<li class=""><a href="./register_room_1.html">ĐĂNG BÀI</a></li>
+							<li class=""><a href="./Timoghep.html">TÌM Ở GHÉP</a></li>
+							<li class=""><a>LIÊN HỆ</a></li>
+						</ul>
+					</div>
+
+					<div class="box-user">
+						<ul class="nav_user logged">
+						</ul>
+						<div class="user-info">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="dropdown">
+									<a class="dropdown-toggle" data-toggle="dropdown" role="button"
+										aria-expanded="false"> <img
+											src="https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=1789922981141292&height=50&width=50&ext=1579615051&hash=AeQOAjQ9ADFOBMGI"
+											alt=""></a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="clear"></div>
+					</div>
+
+				</div>
+			</div>
+		</header>
+
+		<!-- MAIN-CONTNENT -->
 		<div id="main-body">
 			<div class="container">
-	<div id="main-content" class="main">
-		<div id="sidebar" class="left" style="padding-top: 100px;">
-      <div class="sidebar__inner">
-				
-	<div class="panel">
-		<div class="user-heading">
-			<a class="image"> <img src="../img/avatar1.jpg" alt=""> </a>
-			<div class="info">
-				<h1>Nguyễn Quang Nghĩa</h1>
-				<p>Tài khoản (Ohi ID): fb.quangnghiauit</p>
-				<p>Số dư: <span class="amount">996,000,000 VNĐ</span></p>				
-			</div>
-		</div>
-		<ul class="nav">
-			<li class="">
-				<a>
-					<span class="icon"><img src="../img/card.png" /></span>
-					<span class="itemwrapper">Quản lý tài khoản</span>
-				</a>
-			</li>
-			<li class="">
-				<a>
-					<span class="icon"><img src="../img/money.png" /></span>
-					<span class="itemwrapper">Nạp tiền</span>
-				</a>
-			</li>
-			
-			<li class="">
-				<a>
-					<span class="icon"><img src="../img/news.png" /></span>
-					<span class="itemwrapper">Quản lý tin đăng</span>
-				</a>
-			</li>
-			
-		</ul>
-	</div>
-      </div>
-    </div>
-		<div class="mainbody">
-			<div class="block block-hostel-add">
-				<div class="block-header">Danh sách phòng/nhà cho thuê</div>
-				<div class="block-body">
-					<form>						
-                        <div class="step _1">
-                        <div class="clear"></div>
-						<div class="line"></div>    
-                        <div class="row">
-								<label>Phòng 1</label>
-								<ul class="boxes">
-									
-									<label style="color: blue;
+				<div id="main-content" class="main">
+					<div id="sidebar" class="left" style="padding-top: 100px;">
+						<div class="sidebar__inner">
+
+							<div class="panel">
+								<div class="user-heading">
+									<a class="image"> <img src="../img/avatar1.jpg" alt=""> </a>
+									<div class="info">
+										<h1>Nguyễn Quang Nghĩa</h1>
+										<p>Tài khoản (Ohi ID): fb.quangnghiauit</p>
+										<p>Số dư: <span class="amount">996,000,000 VNĐ</span></p>
+									</div>
+								</div>
+								<ul class="nav">
+									<li class="">
+										<a>
+											<span class="icon"><img src="../img/card.png" /></span>
+											<span class="itemwrapper">Quản lý tài khoản</span>
+										</a>
+									</li>
+									<li class="">
+										<a>
+											<span class="icon"><img src="../img/money.png" /></span>
+											<span class="itemwrapper">Nạp tiền</span>
+										</a>
+									</li>
+
+									<li class="">
+										<a>
+											<span class="icon"><img src="../img/news.png" /></span>
+											<span class="itemwrapper">Quản lý tin đăng</span>
+										</a>
+									</li>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="mainbody">
+						<div class="block block-hostel-add">
+							<div class="block-header">Danh sách phòng/nhà cho thuê</div>
+							<div class="block-body">
+								<form>
+									<div class="step _1">
+										<div class="clear"></div>
+										<div class="line"></div>
+										<div class="row">
+											<label>Phòng 1</label>
+											<ul class="boxes">
+
+												<label style="color: blue;
 									font-size: large;
 									font-weight: bolder;
 									padding-bottom: 10px;">Phòng trọ số 5, ngõ 6 Điện Biên Phủ</label>
-									<i class="far fa-edit ttp__icon" style="margin: 0 12px; cursor: pointer; color: blue;"  data-toggle="modal" data-target="#myModal"	></i> <!-- uses solid style -->
-									<i class="far fa-eye ttp__icon" style="margin: 0 12px; cursor: pointer; color: blue;"></i> <!-- uses regular style -->
-									<i class="fas fa-trash ttp__icon" style="margin: 0 12px; cursor: pointer; color: red;"></i> <!-- uses light style -->
-									<label style="padding-top: 15px;
+												<i class="far fa-edit ttp__icon"
+													style="margin: 0 12px; cursor: pointer; color: blue;"
+													data-toggle="modal" data-target="#myModal"></i>
+												<!-- uses solid style -->
+												<i class="far fa-eye ttp__icon"
+													style="margin: 0 12px; cursor: pointer; color: blue;"></i>
+												<!-- uses regular style -->
+												<i class="fas fa-trash ttp__icon"
+													style="margin: 0 12px; cursor: pointer; color: red;"></i>
+												<!-- uses light style -->
+												<label style="padding-top: 15px;
 									padding-bottom: 10px;">Trạng thái: Còn phòng</label>
-									<label>Thời gian đăng: 22-12-2019 19:43:40</label>
-									<label>Thời gian tạo: 22-12-2019 19:43:40</label>
-								</ul>
-								<!-- Modal -->
-								<div id="myModal" class="modal fade" role="dialog">
-									<div class="modal-dialog">
-								
-									<!-- Modal content-->
-									<div class="modal-content">
-										<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal">&times;</button>
-										<h4 class="modal-title">Thay đổi trạng thái</h4>
+												<label>Thời gian đăng: 22-12-2019 19:43:40</label>
+												<label>Thời gian tạo: 22-12-2019 19:43:40</label>
+											</ul>
+											<!-- Modal -->
+											<div id="myModal" class="modal fade" role="dialog">
+												<div class="modal-dialog">
+
+													<!-- Modal content-->
+													<div class="modal-content">
+														<div class="modal-header">
+															<button type="button" class="close"
+																data-dismiss="modal">&times;</button>
+															<h4 class="modal-title">Thay đổi trạng thái</h4>
+														</div>
+														<div class="modal-body">
+															<div class="radio">
+																<label><input type="radio" name="optradio" checked>Còn
+																	phòng</label>
+															</div>
+															<div class="radio">
+																<label><input type="radio" name="optradio">Hết
+																	phòng</label>
+															</div>
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-default ptt-button"
+																data-dismiss="modal">Cập nhật</button>
+														</div>
+													</div>
+
+												</div>
+											</div>
 										</div>
-										<div class="modal-body">
-											<div class="radio">
-												<label><input type="radio" name="optradio" checked>Còn phòng</label>
-											  </div>
-											  <div class="radio">
-												<label><input type="radio" name="optradio">Hết phòng</label>
-											  </div>
-										</div>
-										<div class="modal-footer">
-										<button type="button" class="btn btn-default ptt-button" data-dismiss="modal">Cập nhật</button>
-										</div>
+										<div class="clear"></div>
+										<div class="line"></div>
 									</div>
-								
-									</div>
-								</div>
-                            </div>
-                            <div class="clear"></div>
-						    <div class="line"></div> 
-						</div>
-						<div class="row">
-							<label>Phòng 2</label>
-							<ul class="boxes">
-								
-								<label style="color: blue;
+									<div class="row">
+										<label>Phòng 2</label>
+										<ul class="boxes">
+
+											<label style="color: blue;
 								font-size: large;
 								font-weight: bolder;
 								padding-bottom: 10px;">Phòng trọ số 5, ngõ 6 Điện Biên Phủ</label>
-								<i class="far fa-edit ttp__icon" style="margin: 0 12px; cursor: pointer; color: blue;"  data-toggle="modal" data-target="#myModal"	></i> <!-- uses solid style -->
-								<i class="far fa-eye ttp__icon" style="margin: 0 12px; cursor: pointer; color: blue;"></i> <!-- uses regular style -->
-								<i class="fas fa-trash ttp__icon" style="margin: 0 12px; cursor: pointer; color: red;"></i> <!-- uses light style -->
-								<label style="padding-top: 15px;
+											<i class="far fa-edit ttp__icon"
+												style="margin: 0 12px; cursor: pointer; color: blue;"
+												data-toggle="modal" data-target="#myModal"></i>
+											<!-- uses solid style -->
+											<i class="far fa-eye ttp__icon"
+												style="margin: 0 12px; cursor: pointer; color: blue;"></i>
+											<!-- uses regular style -->
+											<i class="fas fa-trash ttp__icon"
+												style="margin: 0 12px; cursor: pointer; color: red;"></i>
+											<!-- uses light style -->
+											<label style="padding-top: 15px;
 								padding-bottom: 10px;">Trạng thái: Còn phòng</label style="">
-								<label>Thời gian đăng: 22-12-2019 19:43:40</label>
-								<label>Thời gian tạo: 22-12-2019 19:43:40</label>
-							</ul>
+											<label>Thời gian đăng: 22-12-2019 19:43:40</label>
+											<label>Thời gian tạo: 22-12-2019 19:43:40</label>
+										</ul>
+									</div>
+									<div class="clear"></div>
+									<div class="line"></div>
+							</div>
+							</form>
 						</div>
-						<div class="clear"></div>
-						<div class="line"></div> 
 					</div>
-					</form>				</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
 </body>
+
 </html>

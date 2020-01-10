@@ -16,25 +16,25 @@ footer {
 
 .header-home {
     background: url(../img/home-header.jpg);
-    height: 370px;
+    height: 440px;
     position: relative;
 }
 
 .header-home .header-content {
     width: 75%;
-    height: 65%;
+    height: 62%;
     background-color: black;
     opacity: 35%!important;
     border-radius: 1em;
     position: absolute;
-    top: 18%;
+    top: 27%;
     left: 12%;
 }
 
 .header-home .block-search {
     position: absolute;
     width: 64%;
-    top: 35%;
+    top: 43%;
     left: 17%;
 }
 
